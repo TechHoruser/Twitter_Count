@@ -1,0 +1,13 @@
+<html>
+<head>
+	<link rel="stylesheet"  type="text/css" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body id="login" class="centrado">
+	<h1 class="white">Insert the PIN-Code</h1>
+	<a class="white" target="_blank" href="{{url}}">Obtain PIN-Code</a>
+	<form action="/twitter/pin/" method="POST">
+		<p class="white">Pin:</p><input id="pin" type="text" name="pin"></input>
+		<p></p><input id="boton" type="submit" value="Accept">
+	</form>
+</body>
+</hmtl>
